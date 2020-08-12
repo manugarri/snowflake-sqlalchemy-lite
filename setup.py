@@ -9,7 +9,7 @@ from sys import platform
 
 from setuptools import Extension, setup
 
-version = '0.0.1'
+version = '0.0.2'
 
 setup(
     name='snowflake-sqlalchemy-lite',
@@ -25,7 +25,7 @@ setup(
     ],
     python_requires='>=3.5',
     install_requires=[
-        'snowflake-connector-python-lite'
+        'snowflake-connector-python-lite',
         'sqlalchemy<2.0.0',
     ],
     entry_points={
